@@ -1,4 +1,4 @@
 *.exe
 *.json
 PART_ONE/  
-PART_TWO/
+.gitignore
