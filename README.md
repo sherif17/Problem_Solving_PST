@@ -7,9 +7,9 @@ This Repo will include solutions for sheets & contests that will be assigned per
 ## Repo Will Have 4 Main Directories
 
 * [**Level I**](#Level_I)
-* **Level II**
-* **Level III**
-* **Level V**
+* [**Level II**](#Level_II)
+* [**Level III**](#Level_III)
+* [**Level V**](#Level_V)
 
 .
 <a name="Level_I"/>
@@ -90,3 +90,6 @@ Level V directory will have sheets & contests int the following topics:
 * Segment Tree – Dynamic
 * Persistent Segment Tree
 * Game Theory
+
+
+### Note, All The solutions have a readme file that contain problem statment, problem constarains and samples for input & output of the problem.  
