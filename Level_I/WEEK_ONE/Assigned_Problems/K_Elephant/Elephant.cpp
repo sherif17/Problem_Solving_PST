@@ -1,17 +1,28 @@
 #include <iostream>
 #include <math.h>
-#include<bits/stdc++.h>
+//#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
+    int X;
+    int steps = 0;
+    cin >> X;
+    if (X <= 5)
+        cout << 1;
+    else
+    {
+        steps = X / 5;
+        if (X % 5 > 0)
+            steps += 1;
+        cout << steps;
+    }
 
-
-
- 
     return 0;
 }
+
+/*
 bool checkIfPrimeOrNot(int num)
 {
     bool flag = 0;
@@ -57,14 +68,14 @@ int SumOfDigits(int num)
 
     return sum;
 }
-
+*/
 /*
 el matlob 2akal 3adad 5atwat mahma e5talft no3 el 5atwa 1,2,3,4,5.
 
 
 */
 
-// mo7awalat 8reba 
+// mo7awalat 8reba
 // tenf3 ll el steps sabtaa
 
 /**
@@ -156,4 +167,4 @@ el matlob 2akal 3adad 5atwat mahma e5talft no3 el 5atwa 1,2,3,4,5.
         }
     }
     
-*/ 
+*/
