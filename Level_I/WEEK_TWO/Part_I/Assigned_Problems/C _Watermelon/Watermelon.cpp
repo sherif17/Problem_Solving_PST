@@ -6,7 +6,10 @@ int main()
     int x;
     cin>>x;
     if (x % 2 == 0)
-        cout << "YES";
+    if(x==2)
+        cout << "NO";
+        else
+        cout<<"YES";
     else
         cout << "NO";
 
