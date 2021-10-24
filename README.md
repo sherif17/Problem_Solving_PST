@@ -26,6 +26,8 @@ Level I directory will have sheets & contests int the following topics:
 * Dynamic memory
 * Bitmasks
 
+<img src="https://user-images.githubusercontent.com/43541909/138597926-af5d4b67-abea-403d-a70d-be19e4f08188.png" width="797" height="619" align = "center" />
+
 
 .
 <a name="Level_II"/>
