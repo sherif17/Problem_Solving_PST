@@ -1,0 +1,46 @@
+
+# Problem Statement
+Baby Badawy's first words were "AND 0 SUM BIG", so he decided to solve the following problem. Given two integers nn and kk, count the number of arrays of length nn such that:
+
+all its elements are integers between 00 and 2^k-12
+k
+−1 (inclusive);
+the bitwise AND of all its elements is 00;
+the sum of its elements is as large as possible.
+Since the answer can be very large, print its remainder when divided by 10^9+710
+9
++7
+
+## Constraints
+---
+
+
+## Input
+----
+The first line contains an integer tt (1 \le t \le 101≤t≤10) — the number of test cases you need to solve.
+
+Each test case consists of a line containing two integers nn and kk (1 \le n \le 10^{5}1≤n≤10
+5
+, 1 \le k \le 201≤k≤20)
+
+
+## Output
+---
+For each test case, print the number of arrays satisfying the conditions. Since the answer can be very large, print its remainder when divided by 10^9+710
+9
++7.
+
+### Sample Input 1
+----
+> **2
+2 2
+100000 20**
+
+### Sample Output  1
+----
+> **4
+226732710**
+
+### problem statement
+---
+https://codeforces.com/problemset/problem/1514/B
