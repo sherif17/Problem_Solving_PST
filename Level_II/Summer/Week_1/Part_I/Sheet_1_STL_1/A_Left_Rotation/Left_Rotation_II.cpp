@@ -1,7 +1,8 @@
-#include <bits/stdc++.h>
+# include <bits/stdc++.h>
 using namespace std;
 #define fast  ios::sync_with_stdio(0), cin.tie(0) , cout.tie(0);
-void fastIO() {
+void fastIO()
+{
 #ifndef ONLINE_JUDGE
   freopen("input.txt", "r", stdin);
   freopen("output.txt", "w", stdout);
@@ -12,26 +13,24 @@ void fastIO() {
 int main() {
   fast
   fastIO();
-  int n,k,x;
-  cin>>n>>k;
+  int n,d;
 
-  deque<int>dq(n);
+  cin>>n>>d;
 
-  for(auto &it: dq)
+  vector<int>vec(n);
+  vector<int>res;
+
+ for(auto &i : vec)cin>>i;
+
+  for(int i=d;i<n;i++)
   {
-    cin>>it;
+    cout<<vec[i]<<" ";
   }
-  for(int i=0;i<k;i++)
+  for(int i=0;i<d;i++)
   {
-    x=dq.front();
-    dq.pop_front();
-    dq.push_back(x);
+    cout<<vec[i]<<" ";
   }
 
-  for(auto it: dq)
-  {
-    cout<<it<<" ";
-  }
 
   return 0;
 }
